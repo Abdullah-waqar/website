@@ -1,0 +1,189 @@
+<!--
+HTML <!DOCTYPE> tag is used to inform
+the browser about the version of HTML used in the document.
+This is not a tag it is just the instructin about the
+type of doucument
+-->
+
+<!DOCTYPE html>
+
+<!-- This my html tag where i have written my all html code -->
+
+<html lang="en" dir="ltr">
+  <!-- Head tag is used to provide the information about the doucument
+       such as title , description , keywords and much more -->
+  <head>
+
+    <!-- The <meta> tag contents are not visible on your browser.
+         They are just used to give additional information about
+         the HTML document.
+         The <meta> tags are added to our HTML document
+         for the purpose of Search Engine Optimisation.
+         They are added inside the <head> tag.-->
+
+    <meta charset="utf-8">
+    <!-- title of my website -->
+    <title>Abdullah's personal website</title>
+  </head>
+
+  <!-- body tag always used to hold the content of website -->
+
+  <body>
+
+    <!--
+        Using img tag to display image in my personal
+        website.
+        First attribute is src where i provided the source(link) of my
+        image.
+        Second attribute is alt , if my image not loaded for certain
+        reasons than it will show alternative text.
+
+        In this case i am taking image from facebook
+        <img src="https://scontent.fisb3-1.fna.fbcdn.net/v/t1.6435-0/c0.150.720.720a/s526x395/136967763_793241177926964_7280679990973786474_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeFpx9rlhwDFZ_w4yUNlJtnr5BoHs8jYdFnkGgezyNh0WbrcYhrIv43GTR-03XPXTH36Dtlb08wJKJHcej-_ii3M&_nc_ohc=GDlPLYSzCUsAX9nW4vE&_nc_ht=scontent.fisb3-1.fna&tp=28&oh=cacdd98aa214dfd197cd5a1abf9dea33&oe=60BB7FF8" alt="Abdullah waqar facebook image">
+    -->
+    <!-- Taking image from folder -->
+
+    <table cellspacing="10">
+      <tr>
+        <td><img src="abdullah.jpg" alt="Abdullah waqar image"></td>
+        <td><h1>Abdullah waqar</h1>
+        <p><em>Love to do code in <strong>atom editor</strong>😍😍😍</em></p></td>
+      </tr>
+    </table>
+
+
+
+    <!-- center tag is used to center the content.
+    center tag is not self closing tag.-->
+
+    <center>
+
+      <!-- This is a paragraph tag where we can write paragraphs -->
+
+    <p><h4>My name is abdullah waqar and i love to do code in atom editor
+    because it's super easy to wite code and one cruical think about
+    atom editor that makes it differ from another editors is that it provides
+    auto complete option so that's why i love to do code in atom editor<h4></p>
+    </center>
+
+    <!-- Line break tag -->
+    <hr size=3 noshade color="pink">
+
+    <h3>Courses:</h3>
+
+    <!-- Unordered list tag where i can insert items in the form my bullet -->
+
+    <ul>
+      <!-- List item tags , used to insert the items in the list -->
+      <li>I completed my <strong>Java</strong> course form udemy</li>
+      <li>I learned web development form Angela Yu</li>
+      <li>I studied python from udacity</li>
+    </ul>
+
+    <hr color="pink">
+    <h3>Hobbies</h3>
+
+    <!-- ordered list tag-->
+
+    <ol type="A">
+
+      <!-- i can also used anchor(a) tag in my order list ,
+      unorder list almost i can use it anywhere. -->
+
+      <li><a href="https://www.youtube.com/watch?v=xYGK6lxqAqI">Football</a></li>
+      <li>Badmenton</li>
+      <li>Programing</li>
+      <li>Building website</li>
+    </ol>
+    <hr color="pink">
+    <h3>Skills:</h3>
+
+    <table>
+      <tr>
+        <td>  <table cellspacing="10">
+              <tr>
+                <td>Android development</td>
+                <td>✨✨✨</td>
+              </tr>
+
+              <tr>
+                <td>Web development</td>
+                <td>✨✨</td>
+
+              </tr>
+          </table></td>
+        <td><table cellspacing="10">
+            <tr>
+              <td>Java</td>
+              <td>✨✨✨</td>
+            </tr>
+
+            <tr>
+              <td>C++</td>
+              <td>✨✨</td>
+
+            </tr>
+        </table></td>
+      </tr>
+    </table>
+
+    <hr color="pink">
+
+
+
+
+
+    <!-- anchor(a) tag is used to hyper link to any website ,
+     youtube video , facebook etc
+     href take the link,
+     after href we have to provide the name.
+     Anchor tag is not self closing tag.
+    -->
+
+    <!-- we can also use table
+     to structure our data more beautfull
+    we can also provide border and background color
+  we can also use cellspacing atribute to give space-->
+
+     <table border="1" style="background-color: pink" cellspacing="20">
+       <!-- thead tag used for heading -->
+       <thead>
+         <!-- tr stands for table row -->
+         <tr>
+           <!-- th stands for table data -->
+           <th>Name</th>
+           <th>Age</th>
+         </tr>
+       </thead>
+       <!-- In body tag we actually put our data -->
+       <body>
+         <tr>
+           <td>Jack</td>
+           <td>18</td>
+         </tr>
+         <<tr>
+           <td>Tom</td>
+           <td>21</td>
+         </tr>
+
+         <tr>
+           <td>Jhon</td>
+           <td>45</td>
+         </tr>
+
+       </body>
+
+     </table>
+
+    <a href="https://www.google.com/">Google</a>
+    <br>
+    <a href="https://www.facebook.com">Face book</a>
+    <!-- i can also open new page in my website using anchor(a) tag -->
+    <br>
+    <a href="Contact.html">Contact me!</a>
+
+
+
+  </body>
+
+</html>
